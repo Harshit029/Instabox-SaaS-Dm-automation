@@ -38,7 +38,7 @@ const AutomationList = (props: Props) => {
         <Link
           href={`${pathname}/${automation.id}`}
           key={automation.id}
-          className="bg-gray-100 hover:bg-gray-200 transition duration-100 rounded-xl p-5 border border-gray-300 flex"
+          className="bg-white hover:bg-gray-100 transition duration-100 rounded-xl p-5 border border-gray-200 flex"
         >
           <div className="flex flex-col flex-1 items-start">
             <h2 className="text-xl font-semibold text-gray-700">{automation.name}</h2>
